@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-
+import { FaFileAlt } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
 function Navbar() {
@@ -16,6 +16,7 @@ function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
+          title="LinkedIn Profile"
         >
           <FaLinkedin />
         </a>
@@ -25,6 +26,7 @@ function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
+          title="GitHub Profile"
         >
           <FaGithub />
         </a>
@@ -34,8 +36,20 @@ function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
+          title="Instagram Profile"
         >
           <FaInstagram />
+        </a>
+        <a
+          href="https://drive.google.com/uc?export=download&id=1p_b08IpyZmwPzHJUSlOo2ijpMtdMzOci
+"
+          target="_blank"
+          download="Resume.pdf"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+          title="Download Resume"
+        >
+          <FaFileAlt />
         </a>
       </div>
     </nav>

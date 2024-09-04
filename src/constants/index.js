@@ -44,14 +44,16 @@ export const PROJECTS = [
     image: project1,
     description:
       "A full-stack quiz builder app with user authentication for creating, sharing, and managing quizzes. It supports anonymous quiz-taking, includes timers, analytics, and impression tracking, and ensures secure passwords and robust error handling.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "MongoDB", "JWT", "Express.js"],
+    deployLink: "https://quizz-app-beta-sandy.vercel.app/",
   },
   {
     title: "Job Finder",
     image: project2,
     description:
       "A job listing platform with skill-based filters, user authentication, and secure job management. Includes APIs for listing, retrieving, and editing jobs, with JWT-based authentication, robust error handling, and modular CSS design.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["React", "Tailwind-CSS", "Node.js", "MongoDB", "Express.js"],
+    deployLink: "https://job-finder-rho-nine.vercel.app/",
   },
   {
     title: "NoteHub",
@@ -59,6 +61,7 @@ export const PROJECTS = [
     description:
       "A React-based note-taking app with features for creating and managing note groups. Utilizes localStorage for saving data and includes a mobile-responsive design for optimal viewing.",
     technologies: ["HTML", "CSS", "Javasript", "React"],
+    deployLink: "https://shivek-cmd.github.io/Notes-taking-app/",
   },
   {
     title: "Blogging Platform",
@@ -66,6 +69,7 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    deployLink: "https://shivek-cmd.github.io/Notes-taking-app/",
   },
 ];
 
