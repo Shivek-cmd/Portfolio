@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 year of hands-on experience, I have honed my skills in front-end technologies like React.js, as well as back-end technologies like MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -39,6 +39,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Story-scape",
+    image: project4,
+    description:
+      "A dynamic web story platform where users create, view, and interact with stories. Built with React, Node.js, Express.js, and MongoDB, it features real-time feedback for likes and interactions, category-based browsing, and secure password handling, ensuring user data safety.",
+    technologies: ["React", "Node.js", "MongoDB", "JWT", "Express.js"],
+    deployLink: "https://storify-flame.vercel.app/",
+  },
   {
     title: "Quiz-App",
     image: project1,
