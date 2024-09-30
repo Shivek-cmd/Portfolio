@@ -41,8 +41,7 @@ function Navbar() {
           <FaInstagram />
         </a>
         <a
-          href="https://drive.google.com/uc?export=download&id=1p_b08IpyZmwPzHJUSlOo2ijpMtdMzOci
-"
+          href="https://drive.google.com/file/d/1XkwkDiNNvAftnbrjr1qFlw1TYZgtCgYb/view?usp=sharing"
           target="_blank"
           download="Resume.pdf"
           rel="noopener noreferrer"
